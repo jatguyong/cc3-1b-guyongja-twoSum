@@ -8,7 +8,7 @@
             string numInput = Console.ReadLine();
             int[] numArray = Array.ConvertAll(numInput.Split(','), int.Parse);
 
-            Console.Write("Enter the target sum: ");
+            Console.Write("Enter target: ");
             int target = int.Parse(Console.ReadLine());
 
             int[] result = TwoSum(numArray, target);

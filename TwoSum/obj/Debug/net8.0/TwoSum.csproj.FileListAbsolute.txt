@@ -7,6 +7,7 @@ C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\TwoSum.G
 C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\TwoSum.AssemblyInfoInputs.cache
 C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\TwoSum.AssemblyInfo.cs
 C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\TwoSum.csproj.CoreCompileInputs.cache
+C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\TwoSum.sourcelink.json
 C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\TwoSum.dll
 C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\refint\TwoSum.dll
 C:\Users\itsje\OneDrive\Documents\CSharp\TwoSum\TwoSum\obj\Debug\net8.0\TwoSum.pdb
