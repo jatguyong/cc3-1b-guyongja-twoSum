@@ -1,4 +1,4 @@
-﻿namespace TwoSum
+namespace TwoSum
 {
     internal class Program
     {
@@ -11,33 +11,28 @@
             Console.Write("Enter target: ");
             int target = int.Parse(Console.ReadLine());
 
-            int[] result = TwoSum(numArray, target);
-            Console.WriteLine("Output: [" + string.Join(", ", result) + "]");
+            Console.WriteLine("Output: [" + string.Join(", ", TwoSum(numArray, target)) + "]");
         }
 
         static int[] TwoSum(int[] numArray, int target)
         {
-            Dictionary<int, int> numDict = new Dictionary<int, int>();
+            int[] result = new int[2];
 
             for (int i = 0; i < numArray.Length; i++)
             {
-                int number = numArray[i];
-                int targetNumber = target - number;
-
-                // if the targetNumber exists in the dictionary
-                if (numDict.ContainsKey(targetNumber))
+                for (int j = i+1; j < numArray.Length; j++)
                 {
-                    // return an integer array containing the index of the targetNumber and the current 'number'
-                    return new int[] { numDict[targetNumber], i };
-                }
+                    if (numArray[i] + numArray[j] == target)
+                    {
+                        result[0] = i;
+                        result[1] = j;
 
-                // only store the index of the first occurence of the number with duplicates
-                if (!numDict.ContainsKey(number))
-                    numDict[number] = i;
+                        return result;
+                    }
+                }
             }
 
-            // else return an empty array
-            return new int[0];
+            return result;
         }
     }
 }
